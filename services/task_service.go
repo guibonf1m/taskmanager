@@ -25,7 +25,7 @@ func (t *TaskService) TarefaConcluida(idDesejado string) bool {
 		// Compara o ID da tarefa atual com o ID buscado.
 		if tarefa.ID == idDesejado {
 			// Marca a tarefa como concluída alterando o campo Completed para true.
-			t.Tarefas[i].Completed = true
+			t.Tarefas[i].Completo = true
 			// Retorna true para indicar que a tarefa foi encontrada e alterada.
 			return true
 		}
