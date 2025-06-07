@@ -1,15 +1,5 @@
-Gerenciador de Tarefas em Go
-Este é um projetinho simples de gerenciamento de tarefas (to-do list) criado em Go, como parte de um desafio para praticar a organização de módulos e pacotes.
+*Gerenciador de Tarefas em Go*
 
-Funcionalidades
-Adicionar, listar, atualizar e remover tarefas.
-Como usar
-Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/seu-projeto.git
-cd seu-projeto
-Execute o projeto:
-go
-Copiar código
-go run main.go
+Este projeto é um sistema simples de gerenciamento de tarefas (to-do list) desenvolvido em Go. O objetivo é praticar a criação de módulos Go, a separação do código em pacotes e a organização limpa e escalável do projeto.
+
+O sistema permite cadastrar, listar, atualizar e remover tarefas, servindo como base para um controle básico de atividades internas em uma empresa.
