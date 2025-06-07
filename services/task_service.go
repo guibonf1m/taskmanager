@@ -38,8 +38,8 @@ func (t *TaskService) RemoverTarefaPeloId(idRecebido string) string {
 	for i, id := range t.Tarefas {
 		if id.ID == idRecebido {
 			t.Tarefas = append(t.Tarefas[:i], t.Tarefas[i+1:]...)
-			return fmt.Sprintf("Id encontrado e removido %s", idRecebido)
+			return fmt.Sprintf("Tarefa encontrada e removida: %s \n", idRecebido)
 		}
 	}
-	return fmt.Sprint("Id não encontrado, tente novamente")
+	return fmt.Sprint("Id não encontrado, tente novamente \n")
 }
